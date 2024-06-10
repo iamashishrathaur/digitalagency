@@ -1,6 +1,9 @@
 import blog1 from '../assets/images/blog-1.png'
 import blog2 from '../assets/images/blog-2.png'
 import blog3 from '../assets/images/blog-3.png'
+import author1 from '../assets/images/author-1.png'
+import author2 from '../assets/images/author-2.png'
+
 const Blog = () => {
   
   const blogPosts = [
@@ -9,7 +12,7 @@ const Blog = () => {
       image: blog1,
       title: "Designer's Checklist for Every UX Project.",
       tag: "Grid Layout",
-      authorImage: "./assets/images/author-1.png",
+      authorImage: author1,
       author: "Alice Williams",
       date: "2022-12-20",
       formattedDate: "December 20, 2022"
@@ -19,7 +22,7 @@ const Blog = () => {
       image: blog2,
       title: "Designer's Checklist for Every UX Project.",
       tag: "Grid Layout",
-      authorImage: "./assets/images/author-2.png",
+      authorImage: author2,
       author: "Jaxson Geldit",
       date: "2022-12-20",
       formattedDate: "December 20, 2022"
@@ -29,7 +32,7 @@ const Blog = () => {
       image: blog3,
       title: "Designer's Checklist for Every UX Project.",
       tag: "Grid Layout",
-      authorImage: "./assets/images/author-1.png",
+      authorImage: author1,
       author: "Cooper Saris",
       date: "2022-12-20",
       formattedDate: "December 20, 2022"

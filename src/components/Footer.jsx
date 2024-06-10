@@ -1,4 +1,6 @@
+import { FaDribbble, FaFacebook, FaPinterest } from 'react-icons/fa';
 import logo from '../assets/images/logo.svg'
+import { BsTwitter } from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -11,10 +13,10 @@ const Footer = () => {
             <a href="mailto:companyinfo@mail.com" className="footer-link">companyinfo@mail.com</a>
             <a href="tel:+0987654321" className="footer-link">+098 765 4321</a>
             <ul className="social-list">
-              <li><a href="#" className="social-link"><ion-icon name="logo-facebook" /></a></li>
-              <li><a href="#" className="social-link"><ion-icon name="logo-twitter" /></a></li>
-              <li><a href="#" className="social-link"><ion-icon name="logo-pinterest" /></a></li>
-              <li><a href="#" className="social-link"><ion-icon name="logo-dribbble" /></a></li>
+              <li><a href="#" className="social-link"><FaFacebook/></a></li>
+              <li><a href="#" className="social-link"><BsTwitter/></a></li>
+              <li><a href="#" className="social-link"><FaPinterest/></a></li>
+              <li><a href="#" className="social-link"><FaDribbble/></a></li>
             </ul>
           </div>
           <ul className="footer-list">

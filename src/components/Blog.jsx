@@ -3,6 +3,7 @@ import blog2 from '../assets/images/blog-2.png'
 import blog3 from '../assets/images/blog-3.png'
 import author1 from '../assets/images/author-1.png'
 import author2 from '../assets/images/author-2.png'
+import { IoArrowForward } from 'react-icons/io5'
 
 const Blog = () => {
   
@@ -48,7 +49,8 @@ const Blog = () => {
           </h2>
           <a href="#" className="btn-link">
             <span className="span">Check Our All News</span>
-            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+            <IoArrowForward size={'1.8rem'} display={'block'} aria-hidden="true"/>
           </a>
         </div>
 
@@ -92,7 +94,7 @@ const Blog = () => {
                   </h3>
                   <a href="#" className="btn-link">
                     <span className="span">Read more</span>
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <IoArrowForward size={'1.8rem'} display={'block'} aria-hidden="true"/>
                   </a>
                 </div>
               </div>

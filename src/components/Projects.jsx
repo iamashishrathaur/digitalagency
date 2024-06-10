@@ -1,3 +1,4 @@
+import { IoArrowForward } from 'react-icons/io5'
 import project1 from '../assets/images/project-1.png'
 import project2 from '../assets/images/project-2.png'
 import project3 from '../assets/images/project-3.png'
@@ -57,7 +58,7 @@ const Project = () => {
           </div>
           <a href="#" className="btn-link">
             <span className="span">Show More Projects</span>
-            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            <IoArrowForward size={'1.6rem'} display={'block'} aria-hidden="true"/>
           </a>
         </div>
 
@@ -76,7 +77,7 @@ const Project = () => {
                     <p className="card-tag">{project.tag}</p>
                   </div>
                   <a href="#" className="card-link" aria-label="product details">
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <IoArrowForward size={'22px'} display={'block'} aria-hidden="true"/>
                   </a>
                 </div>
               </div>
